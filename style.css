@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gentium Basic', serif;
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #232526, #414345);
+    color: #eee;
+}
+
+#box1 {
+    margin: 50px auto;
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    line-height: 2;
+    border-bottom: 1px solid orange;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.6rem;
+}
+
+.fa-cloud-sun {
+    color: orange;
+}
+
+#search-city {
+    height: 30px;
+    outline: none;
+    margin: 5px;
+    padding-left: 5px;
+    background: none;
+    color: #eee;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    background: none;
+    color: #eee;
+    border-radius: 5px;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+.boxes {
+    width: 310px;
+    height: 130px;
+    text-align: center;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2.4rem;
+}
+
+#description-temp {
+    text-transform: capitalize;
+}
